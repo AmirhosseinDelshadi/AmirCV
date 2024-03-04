@@ -4,7 +4,7 @@ body {
     font-weight: 400; /* de 300  a 900 */
     font-style: normal;
     color: white;
-    background-image: url("img/image.png");
+    background-image: url("../img/image.png");
 }
 
 a {
