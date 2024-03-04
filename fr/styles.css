@@ -5,6 +5,10 @@ body {
     font-style: normal;
     color: white;
     background-image: url("../img/image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 a {
@@ -47,6 +51,9 @@ img {
     transition: color 0.3s;
 }
 .catergories:hover {
+    color: black;
+}
+.lang{
     color: black;
 }
 .presentation{
