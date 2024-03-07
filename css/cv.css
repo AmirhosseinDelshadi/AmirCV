@@ -3,20 +3,17 @@ body{
     font-optical-sizing: auto;
     font-weight: 400; /* de 300  a 900 */
     font-style: normal;
-
-    height: 5000px;
+    background-color: #010409;
+    color: rgb(255, 255, 255);
 }
-
-  
 .container_navbar{
     position: absolute;
-    background-color: rgb(205, 204, 204);
     width: 100%;
     height: 110px;
     top: 0%;    
     left: 0%;
-    margin: 0px;    
-    padding: 0px;
+    margin: 0px;  
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 .navbar_name{
     position: absolute;
@@ -35,55 +32,57 @@ body{
     display: flex;
     align-items: center;
     height: 100%;
-    
     right: 0%;
+    margin-right: 50px;  
     flex-wrap: wrap;
-    font-size: 120%;
+    font-size: 25px;
 }
 
 .navbar{
-    margin-right: 20px;
+    display: inline-block;
+    padding: 0 10px;
     vertical-align: middle;
     text-decoration: none;
-    color: black;
+    color: rgb(184, 181, 181);
     display: flex;
     transition: color 0.3s;
 }
 .navbar:hover{
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 
 }
-.categories{
-
+.asd{
+    height: 3000px;
 }
-.bottom_block {
-    background-color: rgb(205, 204, 204);
+.footer {
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 50px;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .navbar_name{
         display: none;
     }
     .navbars{
         left: 0%;
         right: 0%;
-        margin: auto;
+        margin: 2px;
         justify-content: center;
     }
     .navbar{
         font-size: 30px;
     }
-    .bottom_block{
+    .footer{
         height: 70px;
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .navbar{
+        font-size: 25px;
     }
 }
