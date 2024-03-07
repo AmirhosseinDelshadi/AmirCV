@@ -1,0 +1,50 @@
+body{
+    display: inline;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* de 300  a 900 */
+    font-style: normal;
+    height: 4000px;
+}
+
+.container_navbar{
+    position: absolute;
+    background-color: rgb(205, 204, 204);
+    width: 100%;
+    height: 100px;
+    top: 0%;    
+    left: 0%;
+    margin: 0px;    
+    padding: 0px;
+}
+.navbar_name{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 300%;
+}
+.navbars{
+    top: 0%;
+    right: 0%;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 0%;
+}
+.navbar{
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 175%;
+}
+.navbar:active{
+    color: blue;
+
+}
+.categories{
+
+}

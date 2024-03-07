@@ -4,7 +4,7 @@ body {
     font-weight: 400; /* de 300  a 900 */
     font-style: normal;
     color: white;
-    background-image: url("../img/image.png");
+    background-image: url("../img/background.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,13 +35,13 @@ img {
     top: 0%;
     left: 3%;
 }
-.container_catergories {
+.container_navbar {
     text-align: right;
     margin-top: 50px;
     margin-right: 40px;
 }
 
-.catergories {
+.navbar {
     text-align: right;
     display: inline;
     font-size: 20px;
@@ -51,7 +51,7 @@ img {
     margin-right: 30px;
     transition: color 0.3s;
 }
-.catergories:hover {
+.navbar:hover {
     color: black;
 }
 .lang{
