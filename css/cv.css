@@ -20,10 +20,11 @@ body{
 .navbar_name{
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: 2%;
     display: flex;
     align-items: center;
     height: 100%;
+    font-size: 300%;
 }
 .navbars {
     position: absolute;
