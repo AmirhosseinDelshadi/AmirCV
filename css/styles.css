@@ -56,7 +56,7 @@ img {
     color: black;
 }
 .lang{
-    color: rgb(255, 0, 0);
+    color: rgb(86, 255, 204);
     margin: 0px;
 }
 .presentation{
@@ -134,10 +134,13 @@ img {
         justify-content: center;
     }
     .navbar{
-        font-size: 25px;
+        font-size:xx-large;
+        margin-right: 20px;
+        line-height: 50px;
     }
     .presentation{
         left: 30px;
+        margin-right: 10px;
     }
     .text_intro{
         font-size: 25px;
