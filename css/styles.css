@@ -113,13 +113,13 @@ img {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 50px;
-    position: fixed;
+    position: absolute;
     bottom: 0%;
     left: 0%;
-    border-radius: 0px;
     color: black;
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1000px) {
