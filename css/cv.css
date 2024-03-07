@@ -44,7 +44,6 @@ body{
     vertical-align: middle;
     text-decoration: none;
     color: rgb(184, 181, 181);
-    display: flex;
     transition: color 0.3s;
 }
 .navbar:hover{
@@ -52,7 +51,7 @@ body{
 
 }
 .asd{
-    height: 3000px;
+    height: 1500px;
 }
 .footer {
     left: 0;
@@ -60,6 +59,7 @@ body{
     width: 100%;
     color: rgb(255, 255, 255);
     text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
   }
 
 
