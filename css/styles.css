@@ -31,10 +31,11 @@ img {
     overflow: hidden;
 }
 .prenom{
-    position: fixed;
+    position: absolute;
+    font-size: 170%;
     top: 0%;
-    left: 3%;
-}
+    left: 60px;
+} 
 .container_navbar {
     text-align: right;
     margin-top: 50px;
@@ -56,11 +57,12 @@ img {
 }
 .lang{
     color: rgb(255, 0, 0);
+    margin: 0px;
 }
 .presentation{
     position: fixed;
     top: 30%;
-    left: 5%;
+    left: 80px;
     border-radius: 0px;
 }
 .text_presentation{
@@ -75,7 +77,6 @@ img {
 .button_presentation{
     background-color:transparent;
     border-color: white;
-    width: 120px;
     border-style: solid;
     border-width: 1px;
     margin-top: 20px;
@@ -87,7 +88,7 @@ img {
     border-width: 2px;
     border-color: white;
     color: white;
-    font-size: 12px;;
+    font-size: 21px;;
     transition: border-color 0.3s, background-color 0.3s, color 0.3s;
 }
 
@@ -119,4 +120,29 @@ img {
     color: black;
     text-align: center;
     vertical-align: middle;
+}
+
+@media screen and (max-width: 1000px) {
+    .prenom{
+        display: none;
+    }
+    .container_navbar {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .navbar{
+        font-size: 25px;
+    }
+    .presentation{
+        left: 30px;
+    }
+    .text_intro{
+        font-size: 25px;
+    }
+    .button_presentation{
+        font-size: 25px;
+    }
 }
