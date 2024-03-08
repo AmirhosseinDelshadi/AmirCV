@@ -64,17 +64,53 @@ body{
     text-align: center;
 }
 
-
-.asd{
-    height: 5000px;
+.catergories{
+    margin-top: 450px;
+    position: relative;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
 }
+
+.catergories .square{
+    position: absolute;
+    display: inline;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(250, 98, 98);
+}
+.catergories h3{
+    margin-left: 30px;
+    color: rgb(250, 98, 98);
+}
+.catergories h4{
+    display: inline;
+    margin-left: 20px;
+    color: rgb(161, 210, 255);
+}
+.catergory{
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 20px;
+}
+.catergory p {
+}
+.JobDate{
+    float: right;
+    margin-right: 30px;
+}
+.catergory p{
+    margin-left: 40px;
+}
+
 .footer {
     width: 100%;
     color: rgb(255, 255, 255);
     text-align: center;
     margin: 0px;
     padding: 0px;
-    display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -89,6 +125,9 @@ body{
     }
     .navbar{
         font-size: 30px;
+    }
+    .catergories{
+        width: 80%;
     }
     .footer{
         height: 70px;
