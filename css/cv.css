@@ -35,6 +35,7 @@ body{
     position: absolute;
     top: 0%;
     display: flex;
+    max-height: 10px;
     align-items: center;
     height: 100%;
     right: 0%;
@@ -45,42 +46,67 @@ body{
 
 .navbar{
     display: inline;
-    vertical-align: middle;
     text-decoration: none;
     color: rgb(184, 181, 181);
     transition: color 0.3s;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .navbar:hover{
     color: rgb(255, 255, 255);
 
 }
+.lang{
+    color: rgb(86, 255, 204);
+    margin: 0px;
+}
 
 .cv_title{
     position: relative;
     font-size: 50px;
-    font-size: 50px;
     font-weight: 400;
     margin-top: 200px;    
     text-align: center;
-}
 
+}
+.btn_downloadCV {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(58, 98, 219);
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 150px;
+    background-color: rgb(58, 98, 219);
+    color: white;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+}
+.btn_downloadCV:hover{
+    background-color: transparent;
+    color: white;
+ }
 .catergories{
     position: relative;
     width: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
+    margin: 0 auto;
 }
-
+.catergories_title{
+    display: block;
+    margin-top: 70px;
+    color: rgb(250, 98, 98);
+}
 .catergories .square{
     position: absolute;
-    display: inline;
     height: 20px;
     width: 20px;
     background-color: rgb(250, 98, 98);
 }
 .catergories h3{
     margin-left: 30px;
-    color: rgb(250, 98, 98);
 }
 .catergories h4{
     display: inline;
@@ -88,11 +114,14 @@ body{
     color: rgb(161, 210, 255);
 }
 .catergory{
+    position: relative;
     height: 100px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 0px;
     margin: 20px;
+    margin-top: 30px;
+
 }
 .catergory p {
 }
@@ -108,8 +137,36 @@ body{
     width: 100%;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin: 0px;
+    margin-top: 50px;
     padding: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+    .btn_downloadCV{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        top: -40px;
+    }
+    .navbar{
+        font-size: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .catergories{
+        width: 80%;
+    }
+    .catergories h3 {
+        display: block;
+        margin-top: 50px;
+    }
+    .catergory{
+        height: 100px;
+        border: 1px solid white;
+    }
+    .footer{
+        height: 70px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -122,19 +179,21 @@ body{
         margin: 2px;
         justify-content: center;
     }
-    .navbar{
-        font-size: 30px;
-    }
-    .catergories{
-        width: 80%;
-    }
-    .footer{
-        height: 70px;
-    }
+
 }
 @media screen and (max-width: 700px) {
-
     .navbar{
         font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        
+    }    
+    .container_navbar{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 495px) {
+    .container_navbar{
+        height: 120px;
     }
 }
