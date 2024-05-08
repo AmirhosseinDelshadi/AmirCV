@@ -124,6 +124,7 @@ body{
 
 }
 .catergory p {
+    transition: color 300ms;
 }
 .JobDate{
     float: right;
