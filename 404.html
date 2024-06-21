@@ -1,1 +1,67 @@
-asdasdasd
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>404 ERROR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .oops {
+                text-align: center;
+            }
+
+            .image-container {
+                width: 80%;
+                text-align: center;
+            }
+
+            img {
+                width: 80%;
+                height: auto;
+                max-width: 100%;
+            }
+
+            .GoBack{
+                border-style: solid;
+                margin-top: 10%;
+                border-radius: 30px;
+                border-width: 2px;
+                border-color: black;
+                background-color: rgb(188,237,99);
+                color: rgb(253,94,134);
+                padding-top: 3%;
+                padding-bottom: 3%;
+                padding-left: 7%;
+                padding-right: 7%;
+                font-size: 30px;
+                font-weight: 900;
+                transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+            }
+
+            .GoBack:hover{
+                cursor: pointer;
+                border-color: black;
+                background-color: white;
+                color: black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="oops" >
+            <img src="/img/oops.png" alt="oops">
+            <a href="/"><button class="GoBack" >Go Home</button></a>
+        </div>
+    </body>
+</html>

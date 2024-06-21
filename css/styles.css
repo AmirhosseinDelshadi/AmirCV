@@ -4,7 +4,7 @@ body {
     font-weight: 400; /* de 300  a 900 */
     font-style: normal;
     color: white;
-    background-image: url("../img/background.png");
+    background-image: url("/img/background.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -62,23 +62,26 @@ img {
 .presentation{
     position: fixed;
     top: 30%;
-    left: 80px;
+    left: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 0px;
 }
 .text_presentation{
     font-size: 200%;
-    line-height: 50px;
+    line-height: 10%px;
+    
 }
 
 .text_intro{
     color: white;
+    margin: 10px;
+    margin-top: -3%;
 }
 
 .button_presentation{
     background-color:transparent;
-    border-color: white;
     border-style: solid;
-    border-width: 1px;
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -124,8 +127,15 @@ img {
 }
 
 @media screen and (max-width: 1100px) {
+    body{
+        font-size: x-large;
+    }
     .prenom{
         display: none;
+    }
+    .container1{
+        width: 80%;
+        height: 60%;
     }
     .container_navbar {
         text-align: center;
@@ -139,15 +149,5 @@ img {
         
         margin-right: 20px;
         line-height: 50px;
-    }
-    .presentation{
-        left: 30px;
-        margin-right: 10px;
-    }
-    .text_intro{
-        font-size: 25px;
-    }
-    .button_presentation{
-        font-size: 25px;
     }
 }
