@@ -47,17 +47,21 @@ img {
     display: inline;
     font-size: 25px;
     text-decoration: none;
-    color: rgb(238, 238, 238);
     font-weight: 300; /* de 300  a 900 */
     margin-right: 30px;
-    transition: color 0.3s;
-}
-.navbar:hover {
+    transition: color 500ms;
     color: rgb(0, 173, 181);
 }
+.navbar:hover {
+    color: #EEE5E5;
+}
 .lang{
-    color: #f7b3ae;
+    color: #EEE5E5;
     margin: 0px;
+    text-decoration: none;
+}
+.lang:hover{
+    color: rgb(0, 173, 181);
 }
 .presentation{
     position: fixed;
@@ -68,14 +72,13 @@ img {
     border-radius: 0px;
 }
 .text_presentation{
-    font-size: 200%;
-    line-height: 10%px;
-    
+    font-size: 180%;    
 }
 
 .text_intro{
+    font-size: 150%;    
     margin: 10px;
-    margin-top: -3%;
+    margin-top: -2%;
 }
 
 .button_presentation{
@@ -91,7 +94,7 @@ img {
     border-color: rgb(0, 173, 181);
     color: rgb(0, 173, 181);
     font-size: 21px;;
-    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    transition: border-color 500ms, background-color 500ms, color 500ms;
 }
 
 .button_presentation:hover{
@@ -111,16 +114,16 @@ img {
 
 
 .footer{
-    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 50px;
     position: absolute;
-    bottom: 0%;
+    bottom: 1%;
     left: 0%;
-    color: black;
+    color: rgb(238, 238, 238);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 100%;
 
 }
 
@@ -142,16 +145,18 @@ img {
         margin-top: 50px;
         justify-content: center;
     }
-
+    .text_presentation{
+        font-size: 160%;
+        
+    }
     .text_intro{
-        font-size: 120%;
+        font-size: 160%;
     }
 
     .navbar{
-        font-size:30px;
-        
+        font-size:160%;
         margin-right: 20px;
-        line-height: 50px;
+        line-height: 60px;
     }
 
     .button_presentation{
