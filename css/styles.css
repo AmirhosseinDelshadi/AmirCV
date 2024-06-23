@@ -3,7 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400; /* de 300  a 900 */
     font-style: normal;
-    color: white;
+    color: rgb(238, 238, 238);
     background-image: url("/img/background.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ img {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(108, 103, 114);
+    background-color: rgb(34, 40, 49);
     width: 70%;
     height: 70%;
     position: absolute;
@@ -47,16 +47,16 @@ img {
     display: inline;
     font-size: 25px;
     text-decoration: none;
-    color: white;
+    color: rgb(238, 238, 238);
     font-weight: 300; /* de 300  a 900 */
     margin-right: 30px;
     transition: color 0.3s;
 }
 .navbar:hover {
-    color: black;
+    color: rgb(0, 173, 181);
 }
 .lang{
-    color: rgb(86, 255, 204);
+    color: #f7b3ae;
     margin: 0px;
 }
 .presentation{
@@ -74,7 +74,6 @@ img {
 }
 
 .text_intro{
-    color: white;
     margin: 10px;
     margin-top: -3%;
 }
@@ -89,17 +88,16 @@ img {
     padding-right: 30px;
     border-radius: 30px;
     border-width: 2px;
-    border-color: white;
-    color: white;
+    border-color: rgb(0, 173, 181);
+    color: rgb(0, 173, 181);
     font-size: 21px;;
     transition: border-color 0.3s, background-color 0.3s, color 0.3s;
 }
 
 .button_presentation:hover{
     cursor: pointer;
-    border-color: black;
-    background-color: white;
-    color: black;
+    border-color: #19647E;
+    color: #19647E;
 }
 
 .photo_profil{
@@ -144,10 +142,27 @@ img {
         margin-top: 50px;
         justify-content: center;
     }
+
+    .text_intro{
+        font-size: larger;
+    }
+
     .navbar{
-        font-size:25px;
+        font-size:30px;
         
         margin-right: 20px;
         line-height: 50px;
+    }
+
+    .button_presentation{
+        font-size: xx-large;
+        margin-top: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 30px;
+        border-width: 2px;
+        border-color: rgb(0, 173, 181);
     }
 }
