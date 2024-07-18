@@ -200,10 +200,10 @@ body {
 
 @media screen and (max-width: 374px) {
     .navbar{
-        font-size: 25px;
+        font-size: 20px;
     } 
     .header{
-        height: 150px;
+        height: 120px;
     }
     .catergories{
         width: 100%;
